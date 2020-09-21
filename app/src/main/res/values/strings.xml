@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidWorkshop</string>
+    <string name="wellcome">به کارگاه اندروید خوش آمدید</string>
+    <string name="usernsme">:نام کاربری</string>
+    <string name="enteruser">نام کاربری را وارد نمایید</string>
+    <string name="pass">:کلمه عبور</string>
+    <string name="enterpass">رمز عبور را وارد نمایید</string>
+    <string name="exit">خروج</string>
+    <string name="enter">ورود</string>
 </resources>

@@ -16,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
             finish()
             System.exit(0)
         })
+
         enterbtn.setOnClickListener(View.OnClickListener {
 
             if(isEmpty(useredit.text))

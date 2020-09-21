@@ -12,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-       Glide.with(this).load(R.drawable.rotating).into(splashImg)
+       Glide.with(this).load(R.drawable.giphy).into(splashImg)
 
             }
     fun nextActivity(view: View){

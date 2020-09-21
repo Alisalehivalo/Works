@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="به کارگاه اندروید خوش آمدید"
+        android:text="@string/wellcome"
         android:textSize="30sp"
         android:textColor="@color/green"
         android:gravity="center"
@@ -18,6 +18,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_marginTop="30dp">
@@ -26,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text=":نام کاربری"
+            android:text="@string/usernsme"
             android:layout_gravity="center"/>
         <EditText
             android:layout_width="match_parent"
@@ -35,7 +37,7 @@
             android:id="@+id/useredit"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:hint="نام کاربری را وارد نمایید"
+            android:hint="@string/enteruser"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"/>
 
@@ -45,13 +47,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text=":کلمه عبور"
+            android:text="@string/pass"
 
             android:layout_gravity="center"/>
         <EditText
@@ -61,7 +65,7 @@
             android:id="@+id/passedit"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:hint="رمز  عبور را وارد نمایید"
+            android:hint="@string/enterpass"
             android:layout_gravity="center"
             android:inputType="textPassword"
             android:layout_marginLeft="10dp"/>
@@ -79,8 +83,8 @@
             android:id="@+id/exitbtn"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="خروج"
-            android:background="@color/orange"
+            android:text="@string/exit"
+            android:background="@drawable/selectedbtn"
             android:layout_gravity="center"/>
         <Button
             android:layout_width="wrap_content"
@@ -89,8 +93,8 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
-            android:text="ورود"
-            android:background="@color/orange"
+            android:text="@string/enter"
+            android:background="@drawable/selectedbtn"
             android:layout_gravity="center"/>
 
     </LinearLayout>
