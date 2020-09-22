@@ -12,6 +12,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
         exitbtn.setOnClickListener(View.OnClickListener {
             finish()
             System.exit(0)
